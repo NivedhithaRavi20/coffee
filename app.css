@@ -1,0 +1,172 @@
+
+body{
+    background-color:#FED8B1; 
+    font-family: 'Noto Sans', sans-serif;
+    font-size:20px;
+    color:#3a291d;
+}
+/* nav.navbar {
+background-color: #ECB176;
+} */
+div#start-up{
+    /* height: 200px; */
+    /* background-color: aqua; */
+    /* background-image: url("D:/javascript/pratice for HTML/museum of coffee/imgs/png-nordwood-themes-ivP3TYdLvw0-unsplash.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: 25%; */
+    align-items:center;
+    justify-content:space-around;
+    margin:2%;
+}
+div>p#quote1{
+    align-items:center;
+    justify-content:center;
+    margin-left: 50px;
+    margin-right:50px;
+}
+h1#heading{
+    color:#6F4E37;
+    font-weight: 700;
+    white-space: nowrap;
+    line-height:0.80;
+    transition:all 0.5s;
+}
+
+h1#heading:hover{
+    text-shadow:5px 5px 10px #3a291d ;
+    transform: scale(1.5) translateY(-1.2em);;
+    color:#ffffff;
+}
+
+
+
+/* img#coffee-scbean{
+    object-fit: cover;
+} */
+a.navbar-brand{
+color: #6F4E37;
+font-family: 'Shalimar',cursive;
+font-weight: 700;
+font-size: 2.5rem;
+}
+nav#main-navbar{
+    font-family:'Roboto', sans-serif;
+    background-image: url("D:/javascript/pratice for HTML/museum of coffee/imgs/png-nordwood-themes-ivP3TYdLvw0-unsplash.png");
+    background:transparent;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: 9%;
+}
+a.nav-link{
+    color: #6F4E37;
+}
+a.nav-link:hover{
+    color: #ffffff;
+}
+h1{
+    color:#ffffff;
+
+}
+form>button.btn:hover{
+    background-color: #6F4E37;
+    outline: #FED8B1;
+    color:#FED8B1
+}
+
+/* div#quotes{
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px #3a291d ;
+    /* padding:5px; */
+/* } */
+
+h2#hcoffee{
+    color: #6F4E37;
+font-family: 'Shalimar',cursive;
+font-weight: 500;
+font-size: 7em;
+}
+
+span#shalimar{
+    font-family: 'Shalimar',cursive;
+    font-weight: 500;
+    font-size: 2em;
+    color: #6F4E37;
+}
+
+h2#grown{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+    color: #6F4E37;
+}
+h2#types{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+    color: #6F4E37;
+}
+
+div#img2{
+    padding:0;
+}
+
+div>p#p-1{
+    line-height: 2;
+}
+div>p#p-2{
+    line-height: 2;
+}
+
+/* card flip start */
+
+
+    
+.card-wrapper{
+    width:100%;
+}
+
+.content{
+    position:relative;
+    width:100%;
+    height:100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.card-wrapper:hover .content{
+    transform: rotateY( 180deg ) ;
+    transition: transform 0.5s;
+}
+
+.face-front, .face-back{
+    position:fixed;
+
+    backface-visibility: hidden;
+}
+.face-back{
+
+    transform: rotateY(180deg);
+    transition:all 1s ease;
+}
+#col1, #col2, #col3, #col4, #col5, #col6, #col7, #col8{
+    column-count: 1;
+}
+
+/* #r1c1, #r1c2, #r2c1, #r2c2{
+    column-count: 1;
+} */
+
+/* card flip  end */
+
+img.rounded-corners{
+    border-radius:50px;
+}
+
+section#contact{
+    background-color: #6F4E37;
+    border-color: #3a291d;
+    border-top-width: 5px;
+    padding: 3%;
+    padding-right: 50%;
+}
