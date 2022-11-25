@@ -52,11 +52,7 @@ font-size: 2.5rem;
 }
 nav#main-navbar{
     font-family:'Roboto', sans-serif;
-    background-color:#b08968;
-    background:transparent;
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position-y: 9%;
+    background-color: #FED8B1;
 }
 a.nav-link{
     color: #6F4E37;
