@@ -33,12 +33,12 @@ h1#heading{
     transition:all 0.5s;
 }
 
-h1#heading:hover{
+/* h1#heading:hover{
     text-shadow:5px 5px 10px #3a291d ;
     transform: scale(1.5) translateY(-1.2em);;
     color:#ffffff;
 }
-
+ */
 
 
 /* img#coffee-scbean{
